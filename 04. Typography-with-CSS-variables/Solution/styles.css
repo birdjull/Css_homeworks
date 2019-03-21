@@ -1,0 +1,15 @@
+@import url(typography.css);
+@import url(reset.css);
+@import url(variables.css);
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700|PT+Serif:400,700');
+
+body{    
+    margin: 1.5rem 0 0 1.5rem;
+}
+
+p{
+    margin: 1.5rem 0;
+}
+ul{
+    margin: 2.5rem;
+}

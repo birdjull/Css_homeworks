@@ -1,0 +1,10 @@
+html{
+    font: var(--font-size-500)/1.5 var(--font-family);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    line-height: 1.1;
+    margin: 0 0 0.5em 0;
+}
+
