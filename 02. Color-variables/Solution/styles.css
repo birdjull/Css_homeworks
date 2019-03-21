@@ -1,0 +1,40 @@
+@import url(layout.css);
+@import url(variables.css);
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i');
+
+*{
+    padding: 0;
+    margin: 0;   
+}
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: var(--font-family);
+}
+ul{
+    border:solid 1px var(--primary-color);
+    color: var(--alternative-color);
+
+}
+h3, p{
+    padding-bottom: 1rem;
+}
+button{
+    page-break-after: 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    background-color: var(--primary-color);
+    color: var(--other-color);
+    border: none;
+    font-weight: 600;
+}
+button:hover{
+    background-color: var(--alternative-color);
+    color: var(--primary-color);
+
+}
