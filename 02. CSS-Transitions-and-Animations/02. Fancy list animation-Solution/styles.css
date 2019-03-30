@@ -25,10 +25,11 @@ ul li{
     list-style: none outside;
     position: relative;
     animation: slide-in;
-    animation-fill-mode: forwards;
     animation-duration: 0.5s;
     margin-bottom: 0.7em;
-
+    opacity: 0;
+    animation-fill-mode: forwards;
+    
 }
 
 .one{
@@ -50,6 +51,7 @@ ul li{
     animation-delay: 1.20s;
 }
 .seven{
+    
     animation-delay: 1.40s;
 }
 
