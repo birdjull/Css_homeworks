@@ -1,0 +1,22 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1.5rem;
+    padding: 1.5rem;
+}
+body >*{
+    background: #000;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+header,
+footer{
+    grid-column: span 7;
+}
+main{
+    grid-column: span 5;
+}
+aside{
+    grid-column: span 2;
+}
