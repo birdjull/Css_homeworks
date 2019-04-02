@@ -1,0 +1,41 @@
+body{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 1.5rem;
+    padding: 1.5rem;
+    grid-template-areas: 
+        "hd hd hd hd hd hd hd"
+        "mn mn mn mn mn sb sb"
+        "ft ft ft ft ft ft ft";
+}
+body >*{
+    background: #000;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+header{
+    grid-area: hd;
+}
+main{
+    grid-area: mn;
+}
+aside{
+    grid-area: sb;
+}
+
+footer{
+    grid-area: ft;
+}
+
+@media screen and (max-width:1024px){
+    body{
+        /* background-color: aqua; */
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        "hd"
+        "mn"
+        "sb"
+        "ft"; 
+    }
+}
